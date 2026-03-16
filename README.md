@@ -1,6 +1,6 @@
-# PILA'26: Personal Intelligence in Agentic AI Era \\ (KDD 2026 Workshop)
+# PILA'26: Personal Intelligence in Agentic AI Era - KDD 2026 Workshop
 
-This repository hosts the website for PILA'26: Personal Intelligence in Agentic AI Era \\ (KDD 2026 Workshop).
+This repository hosts the website for PILA'26: Personal Intelligence in Agentic AI Era - KDD 2026 Workshop.
 
 ## About
 
