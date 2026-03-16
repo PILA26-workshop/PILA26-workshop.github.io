@@ -1,7 +1,7 @@
-# AAAI 2026 Workshop on New Frontiers in Information Retrieval
+# PILA'26: Personal Intelligence in Agentic AI Era \\ (KDD 2026 Workshop)
 
-This repository hosts the website for the AAAI 2026 Workshop on New Frontiers in Information Retrieval.
+This repository hosts the website for PILA'26: Personal Intelligence in Agentic AI Era \\ (KDD 2026 Workshop).
 
 ## About
 
-This workshop aims to advance the frontier of information retrieval systems that can reason over complex queries, follow tailored instructions, and demonstrate robustness and effectiveness across domain-specific and multimodal content.
+PILA'26 focuses on Personal Intelligence in the Agentic AI era, including personalized memory and retrieval, adaptive planning and tool use, user-aligned evaluation, and privacy-aware personal AI agents.
