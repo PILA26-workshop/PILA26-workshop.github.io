@@ -715,6 +715,31 @@ h6 {
   margin-bottom: 30px;
 }
 
+/* Force organizer avatar thumbnails to be consistent size */
+#organizers .speaker img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+#organizers .speaker img.img-fluid {
+  /* Override Bootstrap's height:auto for consistent thumbnail cropping */
+  height: 160px;
+}
+
+@media (max-width: 768px) {
+  #organizers .speaker img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #organizers .speaker img.img-fluid {
+    height: 120px;
+  }
+}
+
 #organizers .speaker .details {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
