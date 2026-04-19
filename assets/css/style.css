@@ -202,36 +202,18 @@ h6 {
   color: #fff;
 }
 
-/* Text wordmark (replaces raster logo) */
-#header .logo-wordmark-link {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 4px 0;
-}
-
-#header .logo-wordmark {
-  font-family: "Instrument Serif", "Times New Roman", Times, serif;
-  font-size: clamp(1.85rem, 2.8vw, 2.45rem);
-  font-weight: 600;
-  font-style: normal;
-  letter-spacing: 0.14em;
-  color: #fff;
-  line-height: 1;
-  text-shadow: 0 1px 2px rgb(0 0 0 / 0.25);
-  transition: color 0.3s ease, letter-spacing 0.3s ease;
-}
-
-#header .logo-wordmark-link:hover .logo-wordmark,
-#header .logo-wordmark-link:focus .logo-wordmark {
-  color: var(--pila-accent-light);
-  letter-spacing: 0.16em;
+#header #logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 40px;
+  width: auto;
+  height: auto;
+  display: block;
 }
 
 @media (max-width: 992px) {
-  #header .logo-wordmark {
-    font-size: clamp(1.55rem, 5vw, 2rem);
-    letter-spacing: 0.12em;
+  #header #logo img {
+    max-height: 30px;
   }
 }
 
@@ -773,25 +755,35 @@ h6 {
 }
 
 #cfp .cfp-block {
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 0.35rem;
+}
+
+#cfp .cfp-block + .cfp-block {
+  margin-top: 0;
+  padding-top: 2.25rem;
+  border-top: 1px solid rgba(207, 216, 232, 0.85);
 }
 
 #cfp .cfp-block:last-child {
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 #cfp .cfp-block h3 {
-  font-size: 1.4rem;
+  font-size: 1.45rem;
   font-weight: 600;
   color: var(--pila-heading);
-  margin: 0 0 0.9rem 0;
+  margin: 0 0 1.15rem 0;
+  padding-top: 0.15rem;
   letter-spacing: -0.02em;
+  line-height: 1.35;
 }
 
 #cfp .cfp-body {
   font-size: 18px;
-  line-height: 1.65;
-  margin-bottom: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1.15rem;
   color: var(--pila-body);
 }
 
@@ -805,8 +797,8 @@ h6 {
 }
 
 #cfp .cfp-note {
-  margin-top: 0.5rem;
-  padding-top: 0.85rem;
+  margin-top: 0.65rem;
+  padding-top: 1rem;
   border-top: 1px solid var(--pila-border);
 }
 
@@ -840,15 +832,16 @@ h6 {
 
 #cfp h4 {
   font-family: "Sora", "Raleway", sans-serif;
-  font-size: 1.12rem;
+  font-size: 1.14rem;
   font-weight: 600;
   color: var(--pila-heading);
-  margin: 1.5rem 0 0.5rem 0;
+  margin: 1.85rem 0 0.65rem 0;
   letter-spacing: -0.01em;
+  line-height: 1.35;
 }
 
 #cfp .cfp-block h4:first-of-type {
-  margin-top: 0.35rem;
+  margin-top: 1.25rem;
 }
 
 #organizers {
@@ -2033,6 +2026,8 @@ h6 {
   padding: 12px 16px;
   overflow-x: auto;
   font-size: 15px;
+  margin-top: 0.35rem;
+  margin-bottom: 1.15rem;
 }
 
 #organizers .speaker a.organizer-homepage {
