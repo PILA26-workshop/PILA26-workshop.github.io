@@ -202,15 +202,36 @@ h6 {
   color: #fff;
 }
 
-#header #logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
+/* Text wordmark (replaces raster logo) */
+#header .logo-wordmark-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 4px 0;
+}
+
+#header .logo-wordmark {
+  font-family: "Instrument Serif", "Times New Roman", Times, serif;
+  font-size: clamp(1.85rem, 2.8vw, 2.45rem);
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.14em;
+  color: #fff;
+  line-height: 1;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 0.25);
+  transition: color 0.3s ease, letter-spacing 0.3s ease;
+}
+
+#header .logo-wordmark-link:hover .logo-wordmark,
+#header .logo-wordmark-link:focus .logo-wordmark {
+  color: var(--pila-accent-light);
+  letter-spacing: 0.16em;
 }
 
 @media (max-width: 992px) {
-  #header #logo img {
-    max-height: 30px;
+  #header .logo-wordmark {
+    font-size: clamp(1.55rem, 5vw, 2rem);
+    letter-spacing: 0.12em;
   }
 }
 
