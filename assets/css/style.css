@@ -772,6 +772,53 @@ h6 {
   padding: 60px 0 30px 0;
 }
 
+#cfp .cfp-block {
+  margin-bottom: 2.5rem;
+}
+
+#cfp .cfp-block:last-child {
+  margin-bottom: 0;
+}
+
+#cfp .cfp-block h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--pila-heading);
+  margin: 0 0 0.9rem 0;
+  letter-spacing: -0.02em;
+}
+
+#cfp .cfp-body {
+  font-size: 18px;
+  line-height: 1.65;
+  margin-bottom: 1rem;
+  color: var(--pila-body);
+}
+
+#cfp .cfp-body:last-child,
+#cfp p.cfp-body.mb-0 {
+  margin-bottom: 0;
+}
+
+#cfp ul.cfp-key-dates.cfp-body {
+  margin-bottom: 0.75rem;
+}
+
+#cfp .cfp-note {
+  margin-top: 0.5rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--pila-border);
+}
+
+#cfp .cfp-kd-label::after {
+  content: ':';
+  margin-right: 0.35rem;
+}
+
+#cfp .cfp-block--topics .row {
+  margin-top: 0;
+}
+
 #cfp .cfp-key-dates li {
   margin-bottom: 0.45rem;
 }
@@ -793,11 +840,15 @@ h6 {
 
 #cfp h4 {
   font-family: "Sora", "Raleway", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.12rem;
   font-weight: 600;
   color: var(--pila-heading);
-  margin: 1.35rem 0 0.65rem 0;
+  margin: 1.5rem 0 0.5rem 0;
   letter-spacing: -0.01em;
+}
+
+#cfp .cfp-block h4:first-of-type {
+  margin-top: 0.35rem;
 }
 
 #organizers {

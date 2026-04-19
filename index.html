@@ -82,8 +82,9 @@
       <div class="container position-relative" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-12">
-            <h2>About</h2>
-            <p style="font-size: 18px;">PILA 2026 targets <i>personal intelligence</i>: LLM- and agent-based systems that model individual users and adapt via memory, interaction, and continual learning—beyond aggregate or one-size-fits-all objectives. Coverage spans user modeling, memory and retrieval, planning and tools, evaluation and alignment, privacy and deployment. <strong>Format:</strong> invited talks, contributed talks/posters, panel. <strong>Venue:</strong> in person, co-located with KDD 2026.</p>
+            <h2>About the Workshop</h2>
+            <p style="font-size: 18px;">Large language models and agent-based systems are widely deployed in user-facing products, yet many systems are still trained and evaluated for population-level goals. PILA 2026 focuses on <i>personal intelligence</i>: building models and agents that represent individual users and adapt inference, behavior, and decisions over time—using memory, interaction feedback, and continual learning rather than static one-size-fits-all policies.</p>
+            <p style="font-size: 18px;">We welcome researchers and practitioners across data mining, ML for natural language and information retrieval, human-centered computing, and trustworthy AI. Themes include user modeling and personalized alignment; memory, retrieval, and lifelong adaptation; benchmarks and evaluation; assistants, health-oriented settings, and other applications; privacy, safety, and reliability for user-adaptive systems. The program combines invited talks, contributed oral presentations and posters, and a panel discussion. The workshop is <strong>in person</strong>, co-located with ACM SIGKDD KDD 2026.</p>
           </div>
         </div>
       </div>
@@ -177,81 +178,120 @@
         <div class="section-header">
           <h2>Call for Papers</h2>
         </div>
-        <h3>Key dates</h3>
-        <ul class="list-unstyled cfp-key-dates" style="font-size: 18px;">
-          <li><span class="cfp-kd-label">Workshop site and CFP</span> 1 April 2026 (AOE)</li>
-          <li><span class="cfp-kd-label">Paper submission</span> 30 April 2026 (AOE)</li>
-          <li><span class="cfp-kd-label">Notification of acceptance</span> 4 June 2026 (AOE)</li>
-          <li><span class="cfp-kd-label">Camera-ready papers</span> 22 June 2026 (AOE)</li>
-        </ul>
-        <p style="font-size: 18px; margin-bottom: 0;">
-          Deadlines: <strong>23:59 <a href="https://time.is/Anywhere_on_Earth" target="_blank" rel="noopener">AOE</a></strong> on the listed date.
-        </p>
-        <br>
-        <br>
-        <h3>Submission format</h3>
-        <p style="font-size: 18px;">
-          <strong>English</strong>; <strong>ACM two-column</strong> proceedings style —
-          <a href="https://www.acm.org/publications/proceedings-template" target="_blank" rel="noopener">ACM templates</a>,
-          <a href="https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty" target="_blank" rel="noopener">Overleaf</a>.
-          <strong>Length:</strong> 4–8 pages excluding references and optional appendices. <strong>PDF</strong> via OpenReview.
-        </p>
-        <p style="font-size: 18px;">LaTeX example:</p>
-        <pre class="code-snippet"><code>\documentclass[sigconf,anonymous,review]{acmart}</code></pre>
-        <p style="font-size: 18px;">
-          <strong>Double-blind:</strong> no names, affiliations, or acknowledgments that identify authors; anonymize links and supplements seen by reviewers. Camera-ready after acceptance may include full metadata.
-        </p>
-        <p style="font-size: 18px;">
-          <strong>Supplement (optional):</strong> extra proofs/code/data description—no page limit; reviewers may ignore it; main paper must be self-contained.
-        </p>
-        <h3>Submission</h3>
-        <p style="font-size: 18px;">
-          <a href="https://openreview.net/group?id=KDD.org/2026/Workshop/PILA" target="_blank" rel="noopener">OpenReview</a> (double-blind).
-          Accepted papers: <strong>non-archival</strong>; on this site only — <strong>not</strong> in the ACM KDD 2026 main proceedings.
-        </p>
-        <h3>Best paper award</h3>
-        <p style="font-size: 18px;">One award (program committee).</p>
-        <h3>Topics</h3>
+
+        <div class="cfp-block">
+          <h3>Key dates</h3>
+          <ul class="list-unstyled cfp-key-dates cfp-body">
+            <li><span class="cfp-kd-label">Workshop site and CFP</span> 1 April 2026 (AOE)</li>
+            <li><span class="cfp-kd-label">Paper submission</span> 30 April 2026 (AOE)</li>
+            <li><span class="cfp-kd-label">Notification of acceptance</span> 4 June 2026 (AOE)</li>
+            <li><span class="cfp-kd-label">Camera-ready papers</span> 22 June 2026 (AOE)</li>
+          </ul>
+          <p class="cfp-body cfp-note mb-0">
+            All deadlines end at <strong>23:59 <a href="https://time.is/Anywhere_on_Earth" target="_blank" rel="noopener">Anywhere on Earth (AOE)</a></strong> on the stated calendar date.
+          </p>
+        </div>
+
+        <div class="cfp-block">
+          <h3>Submission format</h3>
+          <p class="cfp-body">
+            Manuscripts must be in <strong>English</strong> and use the <strong>ACM two-column conference proceedings</strong> layout.
+            Official templates:
+            <a href="https://www.acm.org/publications/proceedings-template" target="_blank" rel="noopener">ACM proceedings templates</a>,
+            <a href="https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty" target="_blank" rel="noopener">Overleaf (ACM SIG Proceedings)</a>.
+          </p>
+          <p class="cfp-body">
+            The paper body is <strong>4–8 pages</strong>, excluding references and optional appendices.
+            For review, upload <strong>one PDF</strong> that satisfies the double-blind rules below.
+          </p>
+          <h4>LaTeX</h4>
+          <p class="cfp-body mb-2">Recommended <code>acmart</code> options for anonymized review:</p>
+          <pre class="code-snippet mb-3"><code>\documentclass[sigconf,anonymous,review]{acmart}</code></pre>
+          <h4>Double-blind review</h4>
+          <p class="cfp-body">Omit author names, affiliations, and identifying acknowledgments.</p>
+          <p class="cfp-body">Anonymize hyperlinks and any supplementary material shown to reviewers.</p>
+          <p class="cfp-body">After acceptance, the camera-ready PDF may include full author metadata.</p>
+          <h4>Optional supplement</h4>
+          <p class="cfp-body">
+            You may attach proofs, pseudocode, code, or data descriptions.
+            There is no fixed page limit; layout may be single- or double-column.
+          </p>
+          <p class="cfp-body">
+            Reviewers are not required to consult supplemental material.
+          </p>
+          <p class="cfp-body mb-0">
+            The main paper must be self-contained.
+          </p>
+        </div>
+
+        <div class="cfp-block">
+          <h3>Submission</h3>
+          <p class="cfp-body">
+            Use only the PILA group on <strong>OpenReview</strong>:
+            <a href="https://openreview.net/group?id=KDD.org/2026/Workshop/PILA" target="_blank" rel="noopener">openreview.net/group?id=KDD.org/2026/Workshop/PILA</a>.
+          </p>
+          <p class="cfp-body">
+            Sign in (or register) on OpenReview, create a submission under that group, and upload your anonymized PDF.
+            Do not submit by email.
+          </p>
+          <p class="cfp-body">
+            Review is <strong>double-blind</strong>; prepare the PDF and any supplement accordingly.
+          </p>
+          <p class="cfp-body mb-0">
+            Accepted papers are <strong>non-archival</strong>.
+            Camera-ready versions appear on this website only and are <strong>not</strong> included in the ACM KDD 2026 main conference proceedings.
+          </p>
+        </div>
+
+        <div class="cfp-block">
+          <h3>Best paper award</h3>
+          <p class="cfp-body mb-0">The program committee may select one Best Paper from accepted submissions.</p>
+        </div>
+
+        <div class="cfp-block cfp-block--topics">
+          <h3>Topics of interest</h3>
+          <p class="cfp-body">Representative areas include, but are not limited to, the following:</p>
         <div class="row mb-3">
           <div class="col-12">
             <div class="topic-panel interactive-panel p-4 border shadow-sm rounded">
-              <b class="topic-heading">(1) User modeling &amp; personalization</b>
-              <p class="topic-desc">Preferences, context, drift, evaluation.</p>
+              <b class="topic-heading">(1) Personalized agent understanding and user modeling</b>
+              <p class="topic-desc">How personal agents build and maintain user models from preferences, behavior, and evolving context: profile grounding, preference drift, uncertainty-aware personalization, and benchmark design for long-horizon user understanding.</p>
             </div>
           </div>
         </div>
         <div class="row mb-3">
           <div class="col-12">
             <div class="topic-panel interactive-panel p-4 border shadow-sm rounded">
-              <b class="topic-heading">(2) Memory &amp; retrieval</b>
-              <p class="topic-desc">Episodic/semantic memory, RAG, long-horizon context.</p>
+              <b class="topic-heading">(2) Agent memory, retrieval, and knowledge integration</b>
+              <p class="topic-desc">Memory architectures and retrieval for personal intelligence: episodic and semantic memory, context compression, retrieval-augmented generation, and hybrid retrieval–generation pipelines for reliable long-term agent behavior.</p>
             </div>
           </div>
         </div>
         <div class="row mb-3">
           <div class="col-12">
             <div class="topic-panel interactive-panel p-4 border shadow-sm rounded">
-              <b class="topic-heading">(3) Planning &amp; tool use</b>
-              <p class="topic-desc">Tools, multi-agent, control, open-ended tasks.</p>
+              <b class="topic-heading">(3) Adaptive planning and tool use for personal agents</b>
+              <p class="topic-desc">Reasoning and action under user goals and constraints: tool routing and selection, multi-agent collaboration, self-correction, and adaptive policies for dynamic or open-ended tasks.</p>
             </div>
           </div>
         </div>
         <div class="row mb-3">
           <div class="col-12">
             <div class="topic-panel interactive-panel p-4 border shadow-sm rounded">
-              <b class="topic-heading">(4) Evaluation, alignment, safety</b>
-              <p class="topic-desc">Metrics, robustness, user-aligned objectives.</p>
+              <b class="topic-heading">(4) Evaluation, alignment, and safety in personal intelligence</b>
+              <p class="topic-desc">Trustworthy personal AI: objectives aligned with users, controllability and transparency, robustness under distribution shift, and evaluation protocols tied to real user outcomes rather than proxy metrics alone.</p>
             </div>
           </div>
         </div>
         <div class="row mb-4">
           <div class="col-12">
             <div class="topic-panel interactive-panel p-4 border shadow-sm rounded">
-              <b class="topic-heading">(5) Privacy, deployment, HCI</b>
-              <p class="topic-desc">On-device/federated, interaction, production.</p>
+              <b class="topic-heading">(5) Privacy, deployment, and human–AI interaction</b>
+              <p class="topic-desc">Privacy-preserving personalization; on-device and federated approaches; interaction design for human–agent collaboration; and deployment experience with personal AI in production settings.</p>
             </div>
           </div>
         </div>
+        </div><!-- /.cfp-block--topics -->
       </div>
     </section>
 
