@@ -2064,3 +2064,26 @@ h6 {
   font-size: 0.95rem;
   color: var(--pila-muted);
 }
+
+.cfp-dates-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 12px 0 0 0;
+}
+
+.cfp-dates-list li {
+  display: grid;
+  grid-template-columns: 320px auto;
+  gap: 12px;
+  padding: 6px 0;
+  align-items: start;
+}
+
+.cfp-dates-list .date-label {
+  font-weight: 500;
+}
+
+.cfp-dates-list .date-value {
+  font-weight: 700;
+  text-align: left;
+}
