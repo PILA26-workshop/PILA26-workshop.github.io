@@ -2087,3 +2087,110 @@ h6 {
   font-weight: 700;
   text-align: left;
 }
+
+.schedule-note {
+  color: var(--pila-muted);
+  font-size: 0.86rem;
+  font-weight: 500;
+}
+
+.speaker-card-grid {
+  margin-top: -12px;
+}
+
+.speaker-card {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--pila-border);
+  border-radius: 18px;
+  box-shadow: 0 14px 38px rgb(var(--pila-navy-rgb) / 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.speaker-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 44px rgb(var(--pila-navy-rgb) / 0.16);
+}
+
+.speaker-photo-wrap {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--pila-surface);
+}
+
+.speaker-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 24%;
+  transition: transform 0.35s ease;
+}
+
+.speaker-card:hover .speaker-photo {
+  transform: scale(1.025);
+}
+
+.speaker-status {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  padding: 7px 11px;
+  border: 1px solid rgb(255 255 255 / 0.55);
+  border-radius: 999px;
+  background: rgb(var(--pila-navy-rgb) / 0.88);
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  backdrop-filter: blur(8px);
+}
+
+.speaker-card-body {
+  padding: 24px 24px 26px;
+}
+
+.speaker-type {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--pila-accent);
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.speaker-card h3 {
+  margin-bottom: 6px;
+  font-size: 1.55rem;
+  font-weight: 700;
+}
+
+.speaker-card h3 a {
+  color: var(--pila-heading);
+}
+
+.speaker-card h3 a:hover {
+  color: var(--pila-accent);
+}
+
+.speaker-affiliation {
+  min-height: 48px;
+  margin-bottom: 14px;
+  color: var(--pila-link);
+  font-weight: 700;
+}
+
+.speaker-bio {
+  margin-bottom: 0;
+  color: var(--pila-muted);
+  font-size: 0.95rem;
+  line-height: 1.62;
+}
+
+@media (max-width: 767px) {
+  .speaker-affiliation {
+    min-height: auto;
+  }
+}
