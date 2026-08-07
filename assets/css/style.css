@@ -2005,6 +2005,19 @@ h6 {
   background-color: var(--pila-accent-muted) !important;
 }
 
+.schedule-table tr.invited-row td {
+  color: #cf4d47;
+  font-weight: 700;
+}
+
+.schedule-table tr.invited-row td strong {
+  font-weight: 800;
+}
+
+.schedule-table tr.invited-row td em {
+  font-style: normal;
+}
+
 .schedule-table tr.poster-row td {
   background-color: rgb(var(--pila-navy-rgb) / 0.04) !important;
 }

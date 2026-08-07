@@ -2,7 +2,7 @@
 
 This repository hosts the website for PILA'26: Personal Intelligence in Agentic AI Era - KDD 2026 Workshop.
 
-PILA'26 is scheduled for Monday, August 10, 2026, 8:00 AM-12:00 PM KST at the International Convention Center Jeju (ICC Jeju), Republic of Korea.
+PILA'26 is scheduled for Monday, August 10, 2026, 8:30 AM-12:05 PM KST at Halla B, Jeju Island, Republic of Korea.
 
 ## About
 
