@@ -2227,49 +2227,8 @@ h6 {
   line-height: 1.62;
 }
 
-.speaker-talk-details {
-  max-width: 920px;
-  margin: 32px auto 0;
-  padding: 30px 34px;
-  border: 1px solid var(--pila-border);
-  border-left: 5px solid var(--pila-teal);
-  border-radius: 16px;
-  background: #fff;
-  box-shadow: 0 12px 32px rgb(var(--pila-navy-rgb) / 0.08);
-}
-
-.speaker-talk-label {
-  display: inline-block;
-  margin-bottom: 10px;
-  color: var(--pila-teal-deep);
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.speaker-talk-details h3 {
-  margin-bottom: 14px;
-  color: var(--pila-heading);
-  font-size: clamp(1.35rem, 2.4vw, 1.8rem);
-  font-weight: 700;
-  line-height: 1.35;
-}
-
-.speaker-talk-details p {
-  margin-bottom: 0;
-  color: var(--pila-muted);
-  font-size: 1rem;
-  line-height: 1.72;
-}
-
 @media (max-width: 767px) {
   .speaker-affiliation {
     min-height: auto;
-  }
-
-  .speaker-talk-details {
-    margin-top: 24px;
-    padding: 24px 22px;
   }
 }
