@@ -2152,6 +2152,8 @@ h6 {
 
 .speaker-card {
   overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(260px, 32%) 1fr;
   background: #fff;
   border: 1px solid var(--pila-border);
   border-radius: 18px;
@@ -2166,7 +2168,7 @@ h6 {
 
 .speaker-photo-wrap {
   position: relative;
-  aspect-ratio: 4 / 3;
+  min-height: 100%;
   overflow: hidden;
   background: var(--pila-surface);
 }
@@ -2228,12 +2230,31 @@ h6 {
 }
 
 .speaker-affiliation {
-  min-height: 48px;
-  margin-bottom: 14px;
+  margin-bottom: 22px;
   color: var(--pila-link);
   font-weight: 700;
 }
 
+.speaker-detail-label {
+  margin: 18px 0 6px;
+  color: var(--pila-teal-deep);
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.speaker-talk-title {
+  margin-bottom: 0;
+  color: var(--pila-heading);
+  font-family: "Sora", sans-serif;
+  font-size: 1.12rem;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.speaker-abstract,
 .speaker-bio {
   margin-bottom: 0;
   color: var(--pila-muted);
@@ -2242,6 +2263,15 @@ h6 {
 }
 
 @media (max-width: 767px) {
+  .speaker-card {
+    display: block;
+  }
+
+  .speaker-photo-wrap {
+    min-height: 0;
+    aspect-ratio: 4 / 3;
+  }
+
   .speaker-affiliation {
     min-height: auto;
   }
