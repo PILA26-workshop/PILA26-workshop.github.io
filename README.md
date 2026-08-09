@@ -8,4 +8,4 @@ PILA'26 is scheduled for Monday, August 10, 2026, 8:30 AM-12:05 PM KST at Halla 
 
 PILA'26 focuses on Personal Intelligence in the Agentic AI era, including personalized memory and retrieval, adaptive planning and tool use, user-aligned evaluation, and privacy-aware personal AI agents.
 
-The website currently presents James Caverlee (Texas A&M University / Google DeepMind), Yinglong Xia (Meta), and Dongha Lee (Yonsei University) as prospective invited speakers whose participation is subject to confirmation, with James positioned as the senior invited speaker.
+The website presents James Caverlee (Texas A&M University), Yinglong Xia (Meta Platforms), and Dongha Lee (Yonsei University) as confirmed invited speakers using their supplied talk titles, abstracts, and biographies.
