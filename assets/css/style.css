@@ -219,12 +219,19 @@ h6 {
   display: block;
   width: 100%;
   height: auto;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
 }
 
 #header .logo-wordmark-link:hover,
 #header .logo-wordmark-link:focus {
   background: #fff;
   transform: translateY(-1px);
+}
+
+#header .logo-wordmark-link:hover .header-logo,
+#header .logo-wordmark-link:focus .header-logo {
+  opacity: 1;
 }
 
 @media (max-width: 992px) {
@@ -630,6 +637,13 @@ h6 {
   display: block;
   width: 100%;
   height: auto;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+#hero .kdd-logo-link:hover .kdd-logo,
+#hero .kdd-logo-link:focus .kdd-logo {
+  opacity: 1;
 }
 
 @media (max-width: 991px) {
