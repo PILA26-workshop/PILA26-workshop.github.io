@@ -250,9 +250,10 @@
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2>Accepted Papers</h2>
+          <p>Accepted contributions to PILA ’26.</p>
         </div>
-        <div id="poster-presentations">
-          <ul id="posterList"></ul>
+        <div class="accepted-paper-group">
+          <ul class="accepted-paper-list" id="acceptedPaperList"></ul>
         </div>
       </div>
     </section>
@@ -498,7 +499,7 @@
   <!-- ======= Accepted Papers Script ======= -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      const list = document.getElementById('posterList');
+      const list = document.getElementById('acceptedPaperList');
       if (!list) return;
 
       function escapeHtml(str) {
@@ -592,9 +593,9 @@
             if (!title) return;
 
             const li = document.createElement('li');
-            li.innerHTML = '<b>' + escapeHtml(title) + '</b><br>' + escapeHtml(authors);
+            li.innerHTML = '<strong>' + escapeHtml(title) + '</strong>' +
+              '<span class="paper-authors">' + escapeHtml(authors) + '</span>';
             list.appendChild(li);
-            list.appendChild(document.createElement('br'));
           });
         })
         .catch(function (err) {
