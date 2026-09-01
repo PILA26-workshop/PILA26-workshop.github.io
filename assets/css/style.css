@@ -1204,12 +1204,50 @@ h6 {
 }
 
 .accepted-paper-list strong {
-  display: block;
-  margin-bottom: 7px;
+  display: inline;
   color: var(--pila-heading);
   font-family: "Sora", sans-serif;
   font-size: 1rem;
   line-height: 1.45;
+}
+
+.paper-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 7px;
+}
+
+.paper-badges {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 7px;
+}
+
+.paper-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.74rem;
+  font-weight: 800;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.paper-badge--type {
+  background: var(--pila-surface);
+  color: var(--pila-teal-deep);
+}
+
+.paper-badge--award {
+  background: #fff1c7;
+  color: #7a5300;
 }
 
 .paper-authors {
@@ -1217,6 +1255,17 @@ h6 {
   color: var(--pila-muted);
   font-size: 0.92rem;
   line-height: 1.55;
+}
+
+@media (max-width: 575px) {
+  .paper-heading {
+    display: block;
+  }
+
+  .paper-badges {
+    justify-content: flex-start;
+    margin-top: 9px;
+  }
 }
 
 

@@ -587,13 +587,28 @@
           rows.slice(1).forEach(function (cols) {
             const titleRaw = (cols && cols[1]) ? cols[1] : '';
             const authorsRaw = (cols && cols[3]) ? cols[3] : '';
+            const presentationTypeRaw = (cols && cols[4]) ? cols[4] : '';
+            const awardRaw = (cols && cols[5]) ? cols[5] : '';
 
             const title = titleRaw.replace(/\s+/g, ' ').trim();
             const authors = normalizeAuthors(authorsRaw);
+            const presentationType = presentationTypeRaw.replace(/\s+/g, ' ').trim();
+            const award = awardRaw.replace(/\s+/g, ' ').trim();
             if (!title) return;
 
+            const badges = [];
+            if (presentationType) {
+              badges.push('<span class="paper-badge paper-badge--type">' +
+                escapeHtml(presentationType) + '</span>');
+            }
+            if (award) {
+              badges.push('<span class="paper-badge paper-badge--award">' +
+                escapeHtml(award) + '</span>');
+            }
+
             const li = document.createElement('li');
-            li.innerHTML = '<strong>' + escapeHtml(title) + '</strong>' +
+            li.innerHTML = '<div class="paper-heading"><strong>' + escapeHtml(title) +
+              '</strong><div class="paper-badges">' + badges.join('') + '</div></div>' +
               '<span class="paper-authors">' + escapeHtml(authors) + '</span>';
             list.appendChild(li);
           });
