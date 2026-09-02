@@ -1211,6 +1211,22 @@ h6 {
   line-height: 1.45;
 }
 
+.paper-title-link {
+  color: var(--pila-heading);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.paper-title-link:hover,
+.paper-title-link:focus {
+  color: var(--pila-accent);
+}
+
+.paper-title-link .bi {
+  margin-left: 7px;
+  font-size: 0.95em;
+}
+
 .paper-heading {
   display: flex;
   align-items: flex-start;

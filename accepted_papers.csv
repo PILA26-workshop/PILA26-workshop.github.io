@@ -1,11 +1,11 @@
-paper_id,title,abstract,authors,presentation_type,award
-PILA26_8,"Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-Horizon Agents",,"Yeonjun In; Wonjoong Kim; Sangwu Park; Kanghoon Yoon; Chanyoung Park",Oral,Best Paper
-PILA26_1,"Tracking Preference Drift in Personal AI Agents: A Temporal Bayesian Framework with Regret Bounds",,"Kaustubh S. Bukkapatnam",Oral,
-PILA26_3,"Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions",,"Pin Qian; Su Wang; Yihang Chen; Qiaolin Yu; Xiaoyuan Wang; Zhitong Guo; Zhicheng Wang; Junxian You",Oral,
-PILA26_6,"Authority Firewall: Latent Instruction-Hierarchy Monitoring for Safe Personalized Agents",,"Aleksandar Slavov; Cynthia Lambov",Oral,
-PILA26_7,"Agentic Retrieval-Enrichment for Context-Aware Generative Recommendation",,"Minkun Zhao; Lianghao Xia; Yong Xu",Oral,
-PILA26_10,"Auditable Personal Memory for User-Adaptive Agents",,"Marcel Osmond",Oral,
-PILA26_2,"More Than a Role: Memory in LLM-based Role-Playing Agents",,"Shuchen Wu; ZhiShu Jiang; Jiaye Yang; Xin Shen; Haibo Liu; Yichen Wan; Chenxi Miao; Guanqiang QI; Tingzhi Dai; Jiarui Zhang; Luodong Xu; Jiahui Liang; Weikang Li",Poster,
-PILA26_4,"Situation Graph Prediction for User Perspective Modeling",,"Jisung Shin; Daniel Platnick; Marjan Alirezaie; Hossein Rahnama",Poster,
-PILA26_5,"LLMAR: A Tuning-Free Recommendation Framework for Sparse and Text-Rich Industrial Domains",,"Ryogo Hishikawa; Ichiro Kataoka; Shinya Yuda",Poster,
-PILA26_9,"Toward Personal Intelligence Through Cooperative Observation",,"Yashar Talebirad; Osman Jime; Ali Parsaee; Eden Redman; Yongbin Kim; Osmar Zaiane",Poster,
+paper_id,title,abstract,authors,presentation_type,award,pdf_url
+PILA26_8,"Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-Horizon Agents",,"Yeonjun In; Wonjoong Kim; Sangwu Park; Kanghoon Yoon; Chanyoung Park",Oral,Best Paper,assets/papers/personalize-then-store.pdf
+PILA26_1,"Tracking Preference Drift in Personal AI Agents: A Temporal Bayesian Framework with Regret Bounds",,"Kaustubh S. Bukkapatnam",Oral,,assets/papers/tracking-preference-drift.pdf
+PILA26_3,"Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions",,"Pin Qian; Su Wang; Yihang Chen; Qiaolin Yu; Xiaoyuan Wang; Zhitong Guo; Zhicheng Wang; Junxian You",Oral,,assets/papers/toward-user-conditioned-evaluation.pdf
+PILA26_6,"Authority Firewall: Latent Instruction-Hierarchy Monitoring for Safe Personalized Agents",,"Aleksandar Slavov; Cynthia Lambov",Oral,,assets/papers/authority-firewall.pdf
+PILA26_7,"Agentic Retrieval-Enrichment for Context-Aware Generative Recommendation",,"Minkun Zhao; Lianghao Xia; Yong Xu",Oral,,assets/papers/agentic-retrieval-enrichment.pdf
+PILA26_10,"Auditable Personal Memory for User-Adaptive Agents",,"Marcel Osmond",Oral,,assets/papers/auditable-personal-memory.pdf
+PILA26_2,"More Than a Role: Memory in LLM-based Role-Playing Agents",,"Shuchen Wu; ZhiShu Jiang; Jiaye Yang; Xin Shen; Haibo Liu; Yichen Wan; Chenxi Miao; Guanqiang QI; Tingzhi Dai; Jiarui Zhang; Luodong Xu; Jiahui Liang; Weikang Li",Poster,,assets/papers/more-than-a-role.pdf
+PILA26_4,"Situation Graph Prediction for User Perspective Modeling",,"Jisung Shin; Daniel Platnick; Marjan Alirezaie; Hossein Rahnama",Poster,,assets/papers/situation-graph-prediction.pdf
+PILA26_5,"LLMAR: A Tuning-Free Recommendation Framework for Sparse and Text-Rich Industrial Domains",,"Ryogo Hishikawa; Ichiro Kataoka; Shinya Yuda",Poster,,assets/papers/llmar.pdf
+PILA26_9,"Toward Personal Intelligence Through Cooperative Observation",,"Yashar Talebirad; Osman Jime; Ali Parsaee; Eden Redman; Yongbin Kim; Osmar Zaiane",Poster,,assets/papers/toward-personal-intelligence.pdf
